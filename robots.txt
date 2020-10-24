@@ -1,13 +1,4 @@
-User-Agent: *
-Disallow: /tilda/form*
-Disallow: /tilda/rec*
-Disallow: /tilda/click*
-Disallow: /tilda/scroll*
-Disallow: /tilda/popup*
-Disallow: /tilda/cart*
-Disallow: /tilda/product*
-Disallow: /tilda/event*
-Disallow: /*_escaped_fragment_*
-Disallow:
-Sitemap: https://xn----7sbaadb0cfu0b6a3e.xn--p1ai/sitemap.xml
-Host: https://xn----7sbaadb0cfu0b6a3e.xn--p1ai
+User-agent: *
+Allow: /
+
+Sitemap: https://istanbul.kz/sitemap.xml
