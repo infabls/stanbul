@@ -1,3 +1,8 @@
 .t422__wrapper{
 	display: flex;
 }
+@media (max-width: 480px) {
+	.t422__wrapper {
+		flex-direction: column;
+	}
+}
