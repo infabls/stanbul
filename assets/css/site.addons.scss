@@ -25,7 +25,7 @@
 .t017__uptitle{
 	padding-bottom: 10px;
 }
-.t-uptitle_md{
+.t-uptitle_md,.t815__logo-descr{
 	text-transform: uppercase;
 }
 .t-submit{
@@ -40,12 +40,15 @@
 		max-width: 230px;
 	}
 }
+.t578__title{
+	margin-bottom: 20px;
+}
 @media (max-width: 480px) {
 	.t422__wrapper {
 		flex-direction: column;
 	}
 }
-
+#rec224385533,#rec224387049,#rec224317127,#rec224388402{margin-top: 0 !important;}
 #rec224323420 input::-webkit-input-placeholder {color:#000000; opacity: 0.5;}
 #rec224323420 input::-moz-placeholder {color:#000000; opacity: 0.5;}	
 #rec224323420 input:-moz-placeholder {color:#000000; opacity: 0.5;}	
