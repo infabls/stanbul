@@ -2,7 +2,7 @@
   font-family: "Roboto" !important;
 }
 
-.t720__title {
+.t720__title, .big_txt {
   font-size: 60px;
 }
 
@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 480px) {
+  .t-heading_md {
+    font-size: 22px;
+  }
+
   .header {
     flex-direction: column;
   }
@@ -76,6 +80,15 @@
   }
   .t422__wrapper img {
     max-width: 100%;
+  }
+
+  .big_txt {
+    font-size: 25px;
+  }
+
+  .t815__maincontainer {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .t720__title {
@@ -96,6 +109,26 @@
 
   #rec224387049 {
     padding-bottom: 40px !important;
+  }
+
+  #rec224378221 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .t578 .t-sociallinks {
+    margin-top: 0;
+  }
+
+  .t578__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .t578__text strong {
+    font-size: 25px;
+  }
+  .t578__text span {
+    font-weight: bold;
   }
 }
 #rec224385533, #rec224387049, #rec224317127, #rec224388402 {
