@@ -2,6 +2,21 @@
   font-family: "Roboto" !important;
 }
 
+.t720__title {
+  font-size: 60px;
+}
+
+.first_block_cont {
+  height: 600px;
+  background-image: url("https://static.tildacdn.com/tild3931-6235-4663-a465-373031376434/-/resize/20x/IMG_5194.jpg");
+}
+
+.first_block {
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+
 .t422__wrapper {
   display: flex;
 }
@@ -52,8 +67,35 @@
 }
 
 @media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+
   .t422__wrapper {
     flex-direction: column;
+  }
+  .t422__wrapper img {
+    max-width: 100%;
+  }
+
+  .t720__title {
+    font-size: 25px;
+  }
+
+  .first_block_cont, .first_block {
+    height: 400px;
+  }
+
+  .t-rec_pt_165 {
+    padding-top: 20px !important;
+  }
+
+  #rec224374856, #rec224373850 {
+    padding-bottom: 20px !important;
+  }
+
+  #rec224387049 {
+    padding-bottom: 40px !important;
   }
 }
 #rec224385533, #rec224387049, #rec224317127, #rec224388402 {
