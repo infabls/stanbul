@@ -2,6 +2,16 @@
   font-family: "Roboto" !important;
 }
 */
+body{
+  padding-bottom: 0;
+}
+.t-prefix_2{
+  padding-left: 0;
+}
+#rec224387049 .t-container{
+  display: flex;
+  justify-content: center;
+}
 .t720__title, .big_txt {
   font-size: 60px;
 }
