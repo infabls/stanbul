@@ -1,6 +1,6 @@
-<?php 
 
-if(isset($_POST['submit'])){
+<?php 
+if(isset($_POST['submitbtn'])){
     $to = "bnvstorm@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
