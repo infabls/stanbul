@@ -1,6 +1,7 @@
 
 <?php 
-if(isset($_POST['submitbtn'])){
+var_dump($_POST);
+if(isset($_POST['submit'])){
     $to = "bnvstorm@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
@@ -15,13 +16,13 @@ if(isset($_POST['submitbtn'])){
     mail($to,$subject,$message,$headers);
    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
     echo "Сообщение отправлено. Спасибо Вам " . $name . ", мы скоро свяжемся с Вами.";
-	echo "<br /><br /><a href='https://epicblog.net'>Вернуться на сайт.</a>";
+	echo "<br /><br /><a href='https://istanbul.kz'>Вернуться на сайт.</a>";
 
 }
 
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
-<script language="JavaScript" type="text/javascript">
+<!-- <script language="JavaScript" type="text/javascript">
 function changeurl(){eval(self.location="https://istanbul.kz");}
 window.setTimeout("changeurl();",2000);
-</script>
+</script> -->
