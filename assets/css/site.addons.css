@@ -100,7 +100,9 @@ body {
   background-size: 30px;
   min-height: 40px;
 }
-
+.whyw{
+  font-size: 52px;
+}
 @media (max-width: 480px) {
   .t-heading_md {
     font-size: 22px;
@@ -148,7 +150,9 @@ body {
     margin-bottom: 20px;
 /*    text-align: center;*/
   }
-
+.whyw{
+  font-size: 35px;
+}
   #rec224387049 {
     padding-bottom: 40px !important;
   }
