@@ -242,9 +242,9 @@ form .row {
   transition: all 0.3s linear; */
 }
 #submitbtn:hover, #submitbtn:focus {
-  -webkit-box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
-  -moz-box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
-  box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
+  -webkit-box-shadow: 0 0 15px rgba(241, 70, 53, 0.9);
+  -moz-box-shadow: 0 0 15px rgba(241, 70, 53, 0.9);
+  box-shadow: 0 0 15px rgb(241, 70, 53, 0.9);
 }
 
 #submitbtn:active {

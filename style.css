@@ -1,3 +1,6 @@
+*{
+  font-family: 'Arial' !important;
+}
 .white-popup {
   position: relative;
   background: #FFF;
@@ -50,4 +53,32 @@
               display: flex;
               align-items: center;
               justify-content: center;
+            }
+            @media (max-width:480px) {
+              #contactform {
+                flex-direction: column;
+              }
+              .t720 .t-submit, .t720 .t-input, .t720 .t-select {
+                height: 55px;
+              }
+              .header{
+                padding-bottom: 30px;
+              }
+              #rec224325205{
+                padding-top: 60px;
+                padding-bottom: 30px;
+              }
+              .t-cover__wrapper{
+                padding-top: 30px;
+                padding-bottom: 30px;
+              }
+              #rec224325109 iframe{
+                max-height: 280px;
+              }
+              .t017__title{
+                font-size: 35px !important;
+              }
+              .t-rec_pt_165{
+                padding-top: 60px !important;
+              }
             }
